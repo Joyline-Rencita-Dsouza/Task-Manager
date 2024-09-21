@@ -1,6 +1,4 @@
-# Task Manager Script
 
-# Define a class for tasks
 class TaskManager:
     def __init__(self):
         self.tasks = []
@@ -26,7 +24,6 @@ class TaskManager:
         else:
             print("Invalid task number.")
 
-# Main program
 def main():
     manager = TaskManager()
     while True:
